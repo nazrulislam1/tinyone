@@ -1,0 +1,147 @@
+/*Extra small (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*header start*/
+.menu ul li a{
+	padding:0 0!important;
+	text-align: right;
+}
+/*header end*/
+/*slider start*/
+.slider{
+	padding-bottom: 60px;
+}
+.cid{
+	bottom: -50px;
+}
+.cid li{
+	width: 13px;
+	height: 13px;
+}
+.s_content {
+    margin-top: 30px;
+    padding-bottom: 0;
+}
+.s_content h1{
+	font-size: 25px;
+}
+.s_content p{
+	margin-bottom: 0;
+}
+.s_icon li i {
+	font-size: 30px;
+	margin-right: 10px;
+}
+.s_img img{
+	display: none;
+}
+/*slider end*/
+/*features start*/
+.features{
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+.c_h1{
+	font-size: 28px;
+	margin-bottom: 10px;
+}
+.c_p{
+	font-size: 18px;
+	line-height: 22px;
+}
+.sing{
+	margin-top: 30px;
+}
+.s_icon{
+	font-size: 40px;
+}
+.s_text{
+	text-align: center;
+}
+.s_text h2{
+	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+/*features end*/
+/*contact start*/
+.contact{
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+.f_form{
+	margin-bottom: 0;
+}
+.f_submit{
+	margin-top: 20px;
+}
+/*contact end*/
+/*footer start*/
+.f_1{
+	text-align:center;
+	margin-bottom: 50px;
+}
+/*footer end*/
+
+
+}
+/*Sm(landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start*/
+.menu ul li a{
+	padding:0 0!important;
+	text-align: right;
+}
+/*header end*/
+/*slider start*/
+.s_content {
+    margin-top: 30px;
+    padding-bottom: 60px;
+}
+.s_img img{
+	display: none;
+}
+/*slider end*/
+/*features start*/
+.features{
+	padding-top: 60px;
+	padding-bottom: 80px;
+}
+.sing{
+	margin-top: 40px;
+}
+.s_text{
+	text-align: center;
+}
+/*features end*/
+/*footer start*/
+.f_1{
+	text-align:center;
+	margin-bottom: 50px;
+}
+/*footer end*/
+
+
+}
+/*Md(tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+.menu ul li a{
+	padding:0 0!important;
+	text-align: right;
+}
+/*header end*/
+/*slider start*/
+.s_content{
+	margin-top: 35px;
+	padding-bottom: 50px;
+}
+/*slider end*/
+}
+/*Lg(desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+/*El(large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
